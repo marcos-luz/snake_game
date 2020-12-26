@@ -1,0 +1,34 @@
+:root {
+  --background: #FFFFFF;
+  --black: #1b1e23;
+  --grey: #f4eed7;
+  --grey2: #9e9a89;
+  --blue: #3498db;
+  --red: #e74c3c;
+  --yellow: #f1c40f;
+  --green: #2ecc71;
+}
+
+#root {
+  position: relative;
+  height: 330px;
+  width: 400px;
+  border: 10px solid var(--grey);
+  border-image-slice: 1;
+  border-width: 3px;
+  background: var(--black);
+  border-radius: 10px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Saira', sans-serif;
+}
+
+body {
+  background: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
